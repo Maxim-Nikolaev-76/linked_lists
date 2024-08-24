@@ -78,3 +78,7 @@ if __name__ == '__main__':
 
     linked_list.head = head_node
     linked_list.tail = tail_node
+
+    linked_list.append('new value')
+    linked_list.remove(2)
+    linked_list.iterate()
